@@ -1,14 +1,13 @@
 ---
-date: '2017-11-01'
-title: 'Apple Music Facebook Messenger Integration'
-github: ''
-external: 'https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming'
+date: '2019-09-06'
+title: 'Pre HNG Tutorial Website Project'
+github: 'https://github.com/Ifejesu/Startng'
+external: ''
 tech:
-  - Ember
-  - JS
-  - SCSS
-company: 'Apple'
+  - HTML
+  - CSS
+company: ''
 showInProjects: true
 ---
 
-Facebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).
+A simple responsive website built with pure HTML and CSS in preparation for HNGI 6.0.

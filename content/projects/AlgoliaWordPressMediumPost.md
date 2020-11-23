@@ -1,14 +1,13 @@
 ---
-date: '2020-03-27'
-title: 'Integrating Algolia Search with WordPress Multisite'
-github: ''
-external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
+date: '2019-07-12'
+title: 'ALC 4.0: Phase 1 Challenge - Android'
+github: 'https://github.com/Ifejesu/ALC4_Phase1'
+external: ''
 tech:
-  - Algolia
-  - WordPress
-  - PHP
-company: 'Upstatement'
+  - Java
+  - Android Studio
+company: ''
 showInProjects: true
 ---
 
-Building a custom multisite compatible WordPress plugin to build global search with Algolia
+A simple Android Application that uses WebView
