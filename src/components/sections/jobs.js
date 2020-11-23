@@ -219,8 +219,8 @@ const Jobs = () => {
   };
 
   return (
-    <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Worked</h2>
+    <StyledJobsSection id="experience" ref={revealContainer}>
+      <h2 className="numbered-heading">Career Experiences &amp; Activities </h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={onKeyDown}>

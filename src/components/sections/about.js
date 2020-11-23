@@ -132,7 +132,34 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'HTML5 & (S)CSS',
+    'CSS3',
+    'Bootstrap',
+    'React',
+    'Gatsby',
+    'Java',
+    'JavaEE',
+    'JavaFX',
+    'Spring',
+    'Angular',
+    'TypeScript',
+    'API Rest',
+    'GIT',
+    'Node.js',
+    'Next.JS',
+    'Flutter',
+    'Ionic',
+    'Heroku',
+    'Google Cloud Platform',
+    'WordPress',
+    'MySQL',
+    'MS SQL Server',
+    'PostgreSQL',
+    'Firebase',
+    'MongoDB',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +168,26 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
-
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Let me introduce myself, I'm Ifejesu, an innovative software engineer based in Lagos,
+              Nigeria.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I specialize in developing exceptional websites, web applications, and mobile
+              applications.
+            </p>
+
+            <p>I am passionate about shaping the future of Technology in Africa.</p>
+
+            <p>
+              I am currently a student at <a href="https://www.nexford.org">Nexford University</a>{' '}
+              studying for a{' '}
+              <a href="https://www.nexford.org/bba-in-building-a-tech-startup">
+                {' '}
+                BBA in Building a Tech Startup
+              </a>
+              .
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
