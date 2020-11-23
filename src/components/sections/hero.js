@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
+import { professionalTitle, email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import { Greeting } from '../greeting';
+import { IconArrowDown } from '../icons';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -39,6 +41,35 @@ const StyledHeroSection = styled.section`
   }
 `;
 
+const Arrow = styled.div`
+  margin: 0 auto;
+  position: relative;
+  bottom: -2rem;
+  left: 50%;
+  margin-left: -20px;
+  width: 30px;
+  height: 30px;
+  animation: bounce 2s infinite;
+  @media (max-width: 480px) {
+    display: none;
+  }
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+`;
+
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -47,13 +78,19 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Ifejesu Olajide.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const one = <Greeting />;
+  const two = <h2 className="big-heading">I'm Ifejesu Olajide.</h2>;
+  const three = (
+    <h3 className="big-heading">
+      {'<'}
+      {professionalTitle}
+      {'/>'}
+    </h3>
+  );
   const four = (
     <p>
-      I'm a software engineer based in Lagos, Nigeria specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      I'm an innovative software engineer based in Lagos, Nigeria specializing in developing
+      exceptional websites, web applications, and mobile applications.
     </p>
   );
   const five = (
@@ -74,6 +111,11 @@ const Hero = () => {
             </CSSTransition>
           ))}
       </TransitionGroup>
+      {isMounted && (
+        <Arrow>
+          <IconArrowDown />
+        </Arrow>
+      )}
     </StyledHeroSection>
   );
 };
