@@ -1,9 +1,9 @@
 ---
-date: '2020-05-21'
-title: 'Participant, Cohort 1'
+date: '2020-10-21'
+title: 'Participant'
 company: '#BuildforSDG Challenge 2020'
 location: 'Lagos, Nigeria'
-range: 'March - May 2020'
+range: 'March - October 2020'
 url: 'https://buildforsdg.andela.com/'
 ---
 

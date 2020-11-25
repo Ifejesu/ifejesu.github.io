@@ -8,6 +8,7 @@ tech:
   - CSS
   - HTML
   - JavaScript
+company: 'HNG Internship'
 showInProjects: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: '2020-09-30'
-title: 'Participant'
+title: 'Participant (Google Cloud Track)'
 company: 'Google Africa Developer Scholarship (GADS) 2020'
 location: 'Lagos, Nigeria'
 range: 'April - September 2020'

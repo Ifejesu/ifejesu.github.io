@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'KymoBudget'
 cover: './kymobudget.png'
 github: 'https://github.com/hngi/kymopoleia'

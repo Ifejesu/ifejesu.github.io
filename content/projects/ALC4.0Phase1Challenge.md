@@ -6,8 +6,8 @@ external: ''
 tech:
   - Java
   - Android Studio
-company: ''
+company: 'ALC 4.0'
 showInProjects: true
 ---
 
-A simple Android Application that uses WebView
+A simple Android Application that uses WebView. ALC 4.0 Practice Project

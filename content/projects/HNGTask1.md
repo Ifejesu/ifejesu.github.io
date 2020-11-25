@@ -6,7 +6,7 @@ external: ''
 tech:
   - Java
   - Android Studio
-company: ''
+company: 'HNG Internship'
 showInProjects: true
 ---
 

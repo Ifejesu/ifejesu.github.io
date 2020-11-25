@@ -1,5 +1,5 @@
 ---
-date: '2020-11-22'
+date: '2020-11-23'
 title: 'My Portfolio'
 github: 'https://github.com/ifejesu/ifejesu.github.io'
 external: 'https://ifejesu.github.io'
@@ -14,7 +14,7 @@ tech:
   - GitHub Pages
   - GIT
 company: ''
-showInProjects: true
+showInProjects: false
 ---
 
 You are here! :D

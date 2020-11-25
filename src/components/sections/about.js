@@ -159,6 +159,8 @@ const About = () => {
     'PostgreSQL',
     'Firebase',
     'MongoDB',
+    'Native Android',
+    'Kotlin',
   ];
 
   return (

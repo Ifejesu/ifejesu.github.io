@@ -1,6 +1,6 @@
 ---
 date: '2019-10-30'
-title: 'Participant (Mobile Web Track)'
+title: 'Participant (Mobile Web & Android Track)'
 company: 'ALC 4.0: Google Africa Developer Program 2019'
 location: 'Lagos, Nigeria'
 range: 'April - October 2019'

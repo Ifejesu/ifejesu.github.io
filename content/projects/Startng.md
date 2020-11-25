@@ -6,7 +6,7 @@ external: ''
 tech:
   - HTML
   - CSS
-company: ''
+company: 'HNG Internship'
 showInProjects: true
 ---
 
